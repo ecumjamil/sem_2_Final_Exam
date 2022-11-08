@@ -1,0 +1,70 @@
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  padding: 70px 12px;
+  width: 500px;
+  transform: translate(-50%, -50%);
+  background: rgba(15, 3, 3, 0.133);
+  border: 1px solid white;
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 6px 0 rgba(29, 29, 29, 0.203);
+}
+.headers {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  text-align: center;
+  padding: 60px 12px;
+  width: 1000px;
+  transform: translate(-50%, -50%);
+  background: rgba(241, 238, 238, 0.133);
+  font-size: 1.2rem
+}
+
+button {
+  background-color: rgb(0, 130, 43);
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 0.5rem;
+}
+
+.input--group {
+  margin: 0.5rem 0;
+}
+
+input {
+  border: 1px solid #ddd;
+  outline: none;
+  padding: 0.8rem;
+  border-radius: 5px;
+}
+
+span {
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration:black
+}
+.title
+{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  text-align: center;
+  padding: 60px 12px;
+  width: 1000px;
+  transform: translate(-50%, -50%);
+  background: rgba(241, 238, 238, 0.133);
+  font-size: 3rem
+}
